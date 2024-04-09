@@ -47,7 +47,8 @@ function createTodoElement(todoText, points, date) {
         listItem.remove();
         updateLocalStorage();
     });
-    
+
+
     return listItem;
 }
 function getTodosFromLocalStorage() {
